@@ -8,7 +8,7 @@
 
 	npm install mini-carrousel
 
-> 或者直接下载压缩包，引入里面的carrouse.js文件
+> 或者直接下载压缩包，引入里面的carrousel.js文件
 
 ## 使用 ##
 
