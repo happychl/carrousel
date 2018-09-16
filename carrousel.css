@@ -1,8 +1,13 @@
 .carrousel-container {
 	z-index: 1;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	width: 500px;
 	height: 300px;
+	margin: auto;
 	border: 1px solid #000;
 }
 
