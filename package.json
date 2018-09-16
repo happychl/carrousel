@@ -1,0 +1,25 @@
+{
+  "name": "mini-carrousel",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "files": [
+    "carrousel.js"
+  ],
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/happychl/carrousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/happychl/carrousel/issues"
+  },
+  "homepage": "https://github.com/happychl/carrousel"
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<title>旋转木马原生js插件</title>
+	<link rel="stylesheet" href="carrousel.css">
+</head>
+
+<body>
+	<!-- 外部容器 -->
+	<div class="carrousel-container">
+		<!-- 内部容器 -->
+		<div class="carrousel-wrapper">
+			<div class="carrousel-slide">1</div>
+			<div class="carrousel-slide">2</div>
+			<div class="carrousel-slide">3</div>
+			<div class="carrousel-slide">4</div>
+			<div class="carrousel-slide">5</div>
+			<div class="carrousel-slide">6</div>
+			<div class="carrousel-slide">7</div>
+		</div>
+		<!-- 控制 -->
+		<div class="carrousel-prev">←</div>
+		<div class="carrousel-next">→</div>
+		<!-- 分页 -->
+		<div class="carrousel-pagination"></div>
+	</div>
+	<script src="carrousel.js"></script>
+	<script>
+	carrousel('.carrousel-container', {
+		autoplay: true
+	})
+	</script>
+</body>
+
+</html>
